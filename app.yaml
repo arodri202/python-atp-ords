@@ -1,3 +1,3 @@
 name: python-atp-ords
 config:
-  ORDS_REST_SERVICE_ENDPOINT: https://me9tpfn7sfogybs-atpdbangel.adb.us-phoenix-1.oraclecloudapps.com/ords/angel/hr/
+  ORDS_REST_SERVICE_ENDPOINT: <TO BE FILLED>
