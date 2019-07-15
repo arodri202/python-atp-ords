@@ -1,3 +1,4 @@
+# Copyright (c) 2016, 2018, Oracle and/or its affiliates.  All rights reserved.
 import io
 import json
 import os
@@ -10,8 +11,6 @@ import requests
 ORDS_REST_SERVICE_ENDPOINT = os.environ.get("ORDS_REST_SERVICE_ENDPOINT")
 
 def handler(ctx, data: io.BytesIO=None):
-
-
     empID = ""
     try:
         body = json.loads(data.getvalue())
